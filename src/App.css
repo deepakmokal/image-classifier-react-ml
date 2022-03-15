@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .App-logo {
@@ -13,16 +17,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +30,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.image-box {
+  height: auto;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.image-box img {
+  height: 100%;
+  width:  100%;
+}
+
+.confidence {
+  color: rgb(56, 56, 230);
+  font-size: 14px;
+  font-weight: bold;
+
 }
